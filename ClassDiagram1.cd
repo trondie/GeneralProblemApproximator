@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GPS.ConstraintBasedLS&lt;V&gt;" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAACABAAACAAAACAgAAABAAAAAAEAA=</HashCode>
+      <FileName>ConstraintBasedLS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LocalSM" />
+      <Property Name="CSP" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.CSP&lt;V&gt;">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAAAEAAA=</HashCode>
+      <FileName>CSP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.GraphColoringMC" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphColoringMC.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GraphColoringSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.GraphColoringSA" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphColoringSA.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GraphColoringSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.GraphColoringSM" Collapsed="true">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAQAAhAgAAADAAiAEAAABAECIOQAACAAEQwAoQBAIA=</HashCode>
+      <FileName>GraphColoringSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.KQueensMC" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>KQueensMC.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="KQueensSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.KQueensSA" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.75" />
+    <AssociationLine Name="KQueensSM" Type="GPS.KQueensSM" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="3.596" />
+        <Point X="7.427" Y="3.596" Type="JumpStart" />
+        <Point X="7.26" Y="3.596" Type="JumpEnd" />
+        <Point X="7" Y="3.596" />
+        <Point X="7" Y="4.191" />
+        <Point X="5.044" Y="4.191" />
+        <Point X="5.044" Y="8.716" />
+        <Point X="4.75" Y="8.716" />
+        <Point X="4.75" Y="9" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>KQueensSA.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="KQueensSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.KQueensSM" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAMhCgAAQAAAyACCAAABACIOAABCgIAAgAAABAQA=</HashCode>
+      <FileName>KQueensSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.LocalSM&lt;V&gt;">
+    <Position X="6.5" Y="4.5" Width="4.25" />
+    <Members>
+      <Method Name="LocalSM" Hidden="true" />
+      <Method Name="show_conflicts" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAAhAgAAAAAAiAAAAAAAAAAOAABCAAAAgAAABAIA=</HashCode>
+      <FileName>LocalSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.MinConflicts&lt;V&gt;" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAgAAEAAAgAAABAAAIAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MinConflicts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.SimAnnealing&lt;V&gt;" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAEAAAAAAIAAgAAAAgAAIAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>SimAnnealing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.SudokuMC" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SudokuMC.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SudokuSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.SudokuSA" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SudokuSA.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SudokuSM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GPS.SudokuSM" Collapsed="true">
+    <Position X="12.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAIgAhCgAAAAAAyAACgAAAACIvAABCAIAAgQAAFIIA=</HashCode>
+      <FileName>SudokuSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPS.Testing" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQACYAQACQCEQAAABAACAAAAAAAACAGCgAAUAABEAA=</HashCode>
+      <FileName>Testing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Form1" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Program" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Properties.Resources" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Properties.Settings" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GPS.Vertex" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABgAAABAAA=</HashCode>
+      <FileName>GraphColoringSM.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="GPS.Method" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testing.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
